@@ -1,14 +1,15 @@
 package com.ivoronline.springboot.entity_lombok.entities;
 
-import lombok.*;
-import org.springframework.stereotype.Component;
+import lombok.Data;
 
 @Data
-@Component
 public class PersonEntity {
+
+  //PROPERTIES
   private Long    id;
   private String  name;
   private Integer age;
+
 }
 
 
